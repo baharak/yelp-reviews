@@ -12,8 +12,11 @@ time python step2.py reviews.csv -bigram
 time python step2.py reviews.csv -unigram
 
 The output of step2 is a data.csv file in csv format
+Based on the unigram or bigram features; it will be names:
+unigramdata.csv or bigramdata.csv
 
-time python step3.py unigramdata.csv smoothing squareloss > uni_ss 
-time python step3.py bigramdata.csv smoothing squareloss  > biss 
-time python step3.py unigramdata.csv nosmoothing squareloss > uni_ns 
-time python step3.py bigramdata.csv nsmoothing squareloss > binss 
+For step3, can have the option of smoothing or no smoothign with --nosmoothing;
+
+time python step3.py data.csv smoothing squareloss 
+
+
