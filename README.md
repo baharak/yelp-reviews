@@ -4,8 +4,7 @@ Input data: https://www.yelp.com/academic_dataset
 
 To Run the steps:
 
-time python step1.py tmplIDXQt=dataset  
-time python step1.py tmplIDXQt=dataset
+time python step1.py dataset  
 
 The output of step1 is a reviews.csv in csv format
 
